@@ -12,9 +12,7 @@ Biblioteka
 
 
 
-czytelnicy
-bibliotekarze
-ksiazki
+
 
 
 Osoba
