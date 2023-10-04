@@ -1,6 +1,6 @@
 import java.util.Date;
 
-abstract public class Osoba {
+/*abstract*/ public class Osoba {
     private String imie;        // abstract - nie można utworzyć instancji
     private String nazwisko;
     private Date dataUr;
@@ -11,6 +11,12 @@ abstract public class Osoba {
         this.imie = imie;
         this.nazwisko = nazwisko;
         dataUr = new Date(dzien,miesiac,rok);
+    }
+
+    public Osoba(String imie, String nazwisko, Date dataUr) {
+        this.imie = imie;
+        this.nazwisko = nazwisko;
+        this.dataUr = dataUr;
     }
 
     // ETAP [2] -> GETTERY wszystkiego
